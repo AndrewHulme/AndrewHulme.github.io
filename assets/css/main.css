@@ -4278,3 +4278,7 @@ body.is-preload #header .image img {
   font-size: 40px;
   text-align: center;
 }
+
+.techstack {
+  text-align: left;
+}
