@@ -4290,3 +4290,33 @@ body.is-preload #header .image img {
   align-items: center;
   margin: 0 2em 0 0;
 }
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+  .techstack .image {
+    margin: 0 2em 0 0;
+  }
+
+  .techstack:nth-child(2n) .image {
+    margin: 0 0 0 2em;
+  }
+}
+
+@media screen and (max-width: 736px) and (orientation: portrait) {
+  .techstack {
+    -moz-flex-direction: column !important;
+    -webkit-flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+
+  .techstack .image {
+    width: 100%;
+    max-width: 60%;
+    margin: 0 0 2em 0 !important;
+  }
+
+  .techstack .content {
+    width: 100%;
+    text-align: center !important;
+  }
+}
