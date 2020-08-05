@@ -4355,7 +4355,7 @@ body.is-preload #header .image img {
 
 .caption {
   display: block;
-  margin: 0.5em 0.1em 0 0;
+  margin: 0.5em 0 0 0;
 }
 
 @media screen and (max-width: 736px) and (orientation: portrait) {
