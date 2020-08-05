@@ -13,6 +13,13 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    /> -->
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -23,11 +30,12 @@
       <div class="content">
         <h1><a href="#">Andrew Hulme</a></h1>
         <p>
-          Highly motivated <strong>software developer</strong>. <br /> <br>
-		  Makers Academy graduate with an  <br>
-		  MEng in Mechanical Engineering and <br>
-		  three years experience working in <br>
-		  engineering consultancies.
+          Highly motivated <strong>software developer</strong>. <br />
+          <br />
+          Makers Academy graduate with an <br />
+          MEng in Mechanical Engineering and <br />
+          three years experience working in <br />
+          engineering consultancies.
         </p>
         <ul class="actions">
           <li>
@@ -47,26 +55,119 @@
       </div>
     </header>
 
-    
-	
-	<section id="one" class="wrapper style3 special">
-		<header class="major">
-			<h2>
-			  My Toolkit
-			</h2>
-		  </header>
-		
-		  <ul class="techstack">
-			<p> <u> Languages: </u> <br> JavaScript, Ruby, SQL, HTML/CSS </p>
-			<p> <u> Technologies: </u> <br> React, Ruby on Rails, Sinatra, jQuery, npm, Bootstrap, AWS </p>
-			<p> <u> Test Libraries: </u> <br> RSpec, Jasmine, Capybara, Cypress </p>
-			<p> <u> Databases: </u> <br> PostgreSQL, Firebase </p>
-			<p> <u> DevOps: </u> <br> Travis CI, Heroku, Surge </p>
-			<p> <u> Version Control: </u> <br> GitHub </p>
-			
-		  </ul>
-		
-		  <!-- <ul class="icons major">
+    <section id="one" class="wrapper style3 special">
+      <header class="major">
+        <h2>
+          My Toolkit
+        </h2>
+      </header>
+
+      <div class="for_slick_slider multiple-items">
+        <div class="items">
+          <img src="images/techstack/javascript.svg" alt="" />
+          <span class="caption">JavaScript</span>
+        </div>
+        <div class="items">
+          <img src="images/techstack/react.svg" alt="" />
+          <span class="caption">React</span>
+        </div>
+        <div class="items">
+          <img src="images/techstack/firebase.svg" alt="" />
+          <span class="caption">Firebase</span>
+        </div>
+        <div class="items">
+          <img src="images/techstack/aws.svg" alt="" />
+          <span class="caption">AWS</span>
+        </div>
+        <div class="items">
+          <img src="images/techstack/github.png" alt="" />
+          <span class="caption">GitHub</span>
+        </div>
+        <div class="items">
+          <img src="images/techstack/postgresql.png" alt="" />
+          <span class="caption">PostgreSQL</span>
+        </div>
+      </div>
+
+      <!-- <ul>
+        <table class="table table-sm" style="width: 100%;">
+          <thead>
+            <tr>
+              <th style="text-align: center;">Languages</th>
+              <th>Technologies</th>
+              <th>Test Libraries</th>
+              <th>Databases</th>
+              <th>DevOps</th>
+              <th>Version Control</th>
+            </tr>
+          </thead>
+
+          <tr>
+            <td>JavaScript</td>
+            <td>React</td>
+            <td>RSpec</td>
+            <td>PostgreSQL</td>
+            <td>Travis CI</td>
+            <td>GitHub</td>
+          </tr>
+
+          <tr>
+            <td>Ruby</td>
+            <td>Ruby on Rails</td>
+            <td>Jasmine</td>
+            <td>Firebase</td>
+            <td>Heroku</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>SQL</td>
+            <td>Sinatra</td>
+            <td>Capybara</td>
+            <td></td>
+            <td>Surge</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>HTML/CSS</td>
+            <td>jQuery</td>
+            <td>Cypress</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>npm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>Bootstrap</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>AWS</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </ul> -->
+
+      <!-- <ul class="icons major">
 			<li> <a href="https://github.com/AndrewHulme"
 			  <span class="fab fa-github fa-4x" 
 				><span class="label"></span></span
@@ -81,61 +182,84 @@
 			</li>
 			
 		  </ul> -->
-	</section>
-
+    </section>
 
     <!-- Two -->
     <section id="two" class="wrapper">
-		
       <div class="inner alt">
-		<h1 class="project titles">
-			Projects
-		  </h1>
+        <h1 class="project titles">
+          Projects
+        </h1>
         <section class="spotlight">
-          <div class="image"><a href="https://thereandback.surge.sh/"><img src="images/thereandbacklogo.png" alt="" /></a></div>
+          <div class="image">
+            <a href="https://thereandback.surge.sh/"
+              ><img src="images/thereandbacklogo.png" alt=""
+            /></a>
+          </div>
           <div class="content">
             <h3>ThereAndBack</h3>
             <p>
-			  Single page web app with the main functionality of generating circular routes for a given distance and starting location. Group project of four members. <br> <br>
-			  
-			  Tech Stack: React, Firebase, Cypress, Istanbul, Leaflet, HTML/CSS.
+              Single page web app with the main functionality of generating
+              circular routes for a given distance and starting location. Group
+              project of four members. <br />
+              <br />
+
+              Tech Stack: React, Firebase, Cypress, Istanbul, Leaflet, HTML/CSS.
             </p>
           </div>
         </section>
         <section class="spotlight">
-          <div class="image"><a href="http://acebook.surge.sh/"><img src="images/acebook_logo.png" alt="" /></a></div>
+          <div class="image">
+            <a href="http://acebook.surge.sh/"
+              ><img src="images/acebook_logo.png" alt=""
+            /></a>
+          </div>
           <div class="content">
             <h3>Acebook</h3>
             <p>
-			  Single page web app based on the social media site 'Facebook'. Group project of six team members. <br> <br>
+              Single page web app based on the social media site 'Facebook'.
+              Group project of six team members. <br />
+              <br />
 
-			  Tech Stack: React, Ruby on Rails, Cypress, RSpec, Capybara, HTML/CSS.
+              Tech Stack: React, Ruby on Rails, Cypress, RSpec, Capybara,
+              HTML/CSS.
             </p>
           </div>
         </section>
         <section class="spotlight">
-          <div class="image"><a href="https://andrewhulme.github.io/bowling-challenge/"><img src="images/Bowling-Ball.jpg" alt="" /></a></div>
+          <div class="image">
+            <a href="https://andrewhulme.github.io/bowling-challenge/"
+              ><img src="images/Bowling-Ball.jpg" alt=""
+            /></a>
+          </div>
           <div class="content">
             <h3>Bowling Scorecard</h3>
             <p>
-				A dynamic bowling scorecard based on the classic coding kata. Solo project. <br> <br>
+              A dynamic bowling scorecard based on the classic coding kata. Solo
+              project. <br />
+              <br />
 
-				Tech Stack: JavaScript, jQuery, Jasmine, HTML/CSS.
+              Tech Stack: JavaScript, jQuery, Jasmine, HTML/CSS.
             </p>
           </div>
-		</section>
-		<section class="spotlight">
-			<div class="image"><a href="https://github.com/AndrewHulme/GildedRose-Refactoring-Kata"><img src="images/gildedrose.jpg" alt="" /></a></div>
-			<div class="content">
-			  <h3>Gilded Rose</h3>
-			  <p>
-				Exercise on the classic Gilded Rose coding kata, showcasing testing and refactoring legacy code. Solo project. <br> <br>
-  
-				Tech Stack: Ruby, RSpec.
-			  </p>
-			</div>
-		  </section>
+        </section>
+        <section class="spotlight">
+          <div class="image">
+            <a href="https://github.com/AndrewHulme/GildedRose-Refactoring-Kata"
+              ><img src="images/gildedrose.jpg" alt=""
+            /></a>
+          </div>
+          <div class="content">
+            <h3>Gilded Rose</h3>
+            <p>
+              Exercise on the classic Gilded Rose coding kata, showcasing
+              testing and refactoring legacy code. Solo project. <br />
+              <br />
 
+              Tech Stack: Ruby, RSpec.
+            </p>
+          </div>
+        </section>
 
         <!-- <section class="special">
           <ul class="icons labeled">
@@ -508,39 +632,38 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
     <!-- Footer -->
     <footer id="footer">
-
-		<!-- One -->
-		<!-- <section id="one" class="wrapper style2 special"> -->
-			<header class="major">
-			  <h2>
-				Contact and Other Links
-			  </h2>
-			  <!-- Mobile: 07714617544 <br> 
+      <!-- One -->
+      <!-- <section id="one" class="wrapper style2 special"> -->
+      <header class="major">
+        <h2>
+          Contact and Other Links
+        </h2>
+        <!-- Mobile: 07714617544 <br> 
 			  Email: andrewhulme1993@gmail.com -->
-			</header>
-			<ul class="icons major">
-			  <li> <a href="https://github.com/AndrewHulme"
-				<span class="fab fa-github fa-4x" 
-				  ><span class="label"></span></span
-				>
-				</a>
-			  </li>
-			  <li> <a href="https://linkedin.com/in/andrew-hulme"
-				<span class="fab fa-linkedin fa-4x" 
-				  ><span class="label"></span></span
-				>
-				</a>
-			  </li>
-			  <!-- <li>
+      </header>
+      <ul class="icons major">
+        <li>
+          <a href="https://github.com/AndrewHulme">
+            <span class="fab fa-github fa-4x">
+              <span class="label"></span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/andrew-hulme">
+            <span class="fab fa-linkedin fa-4x">
+              <span class="label"></span>
+            </span>
+          </a>
+        </li>
+        <!-- <li>
 				<span class="icon solid fa-cloud"
 				  ><span class="label">Upload</span></span
 				>
 			  </li> -->
-			</ul>
-		  <!-- </section> -->
+      </ul>
+      <!-- </section> -->
 
-
-		  
       <!-- <ul class="icons">
         <li>
           <a href="#" class="icon brands fa-facebook-f"
@@ -565,6 +688,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
