@@ -4340,15 +4340,16 @@ body.is-preload #header .image img {
 }
 
 .for_slick_slider .items {
-  width: 350px;
-  height: 250px;
+  width: 200px;
+  height: 100px;
   margin: 50px;
 }
 
 .for_slick_slider .items img {
-  width: 350px;
-  height: 250px;
-  margin: 0 0 0 0.5em;
+  width: 200px;
+  height: 100px;
+  margin: 0 0 0 4.8em;
+  /* margin: 0 0 0 0.5em; */
 }
 
 .caption {
