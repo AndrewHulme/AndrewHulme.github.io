@@ -4350,6 +4350,7 @@ body.is-preload #header .image img {
   height: 100px;
   margin: 0 0 0 4.8em;
   /* margin: 0 0 0 0.5em; */
+  object-fit: contain;
 }
 
 .caption {
