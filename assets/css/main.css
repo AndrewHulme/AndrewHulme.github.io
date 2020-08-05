@@ -4354,3 +4354,21 @@ body.is-preload #header .image img {
   display: block;
   margin: 0.5em 1em 0 0;
 }
+
+@media screen and (max-width: 736px) and (orientation: portrait) {
+  .for_slick_slider .items {
+    width: 250px;
+    height: 150px;
+    margin: 0.5em 0 2.5em 2.8em;
+  }
+
+  .for_slick_slider .items img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .caption {
+    display: block;
+    margin: 0.5em 2.8em 0 0;
+  }
+}

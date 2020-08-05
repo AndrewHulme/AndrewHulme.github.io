@@ -51,5 +51,15 @@
     arrows: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    // mobileFirst: true,
+    responsive: [
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 })(jQuery);
