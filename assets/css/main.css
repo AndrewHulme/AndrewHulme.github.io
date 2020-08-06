@@ -4390,16 +4390,19 @@ body.is-preload #header .image img {
   }
 }
 
-/* For Mobile */
-/* @media screen and (max-width: 540px) {
-  .view {
-      width: 400px;
-  }
-} */
-
-/* For Tablets */
-/* @media screen and (min-width: 540px) and (max-width: 780px) {
-  .view {
-      width: 600px;
-  }
+/* .nextArrowBtn {
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  right: 0;
+  color: #bfafb2;
+  padding: 0px 15px 0px;
+}
+.prevArrowBtn {
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 0;
+  color: #bfafb2;
+  padding: 0px 15px 0px;
 } */
