@@ -4348,9 +4348,15 @@ body.is-preload #header .image img {
 .for_slick_slider .items img {
   width: 200px;
   height: 100px;
-  margin: 0 0 0 4.8em;
+
+  /* margin: 0 0 0 4.8em; */
   /* margin: 0 0 0 0.5em; */
   object-fit: contain;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .caption {
@@ -4362,17 +4368,38 @@ body.is-preload #header .image img {
   .for_slick_slider .items {
     width: 200px;
     height: 100px;
-    margin: 0.5em 0 2.5em 2.8em;
+    margin: 0.5em 0 2.5em 0;
+    /* margin: 0.5em 0 2.5em 2.8em; */
   }
 
   .for_slick_slider .items img {
     width: 200px;
     height: 100px;
     margin: 0 0 0 0em;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
   }
 
   .caption {
     display: block;
-    margin: 0.5em 2.8em 0 0;
+    margin: 0.5em 0 0 0;
+    /* margin: 0.5em 2.8em 0 0; */
   }
 }
+
+/* For Mobile */
+/* @media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+} */
+
+/* For Tablets */
+/* @media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+      width: 600px;
+  }
+} */
