@@ -2436,7 +2436,8 @@ input[type="radio"]:focus + label:before {
   box-shadow: none;
   border-radius: 0;
   margin: 0 0 3em 0;
-  width: 13em;
+  /* Change this to change photo size */
+  width: 21em;
 }
 
 .image.phone img {
@@ -4283,7 +4284,11 @@ body.is-preload #header .image img {
 }
 
 .image.phone {
-  scale: 1.45;
+  /* For Ramboll Pic */
+  /* scale: 1.45; */
+
+  /* For Myanmar 1 Pic */
+  /* scale: 2; */
 }
 
 .project.titles {
@@ -4406,3 +4411,10 @@ body.is-preload #header .image img {
   color: #bfafb2;
   padding: 0px 15px 0px;
 } */
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .image.phone {
+    scale: 1 !important;
+    /* scale: 1.4 !important; */
+  }
+}
