@@ -46,13 +46,20 @@
   $(".multiple-items").slick({
     infinite: true,
     dots: false,
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
     autoplaySpeed: 2000,
     // mobileFirst: true,
     responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
       {
         breakpoint: 500,
         settings: {
