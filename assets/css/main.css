@@ -4294,6 +4294,19 @@ body.is-preload #header .image img {
 .project.titles {
   font-size: 40px;
   text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.all.projects {
+  font-size: 13pt;
+  text-align: center;
+  color: #999999;
+}
+
+.githubsymbol1 {
+  scale: 1;
+  vertical-align: sub;
+  margin-left: 5px;
 }
 
 .techstack {
