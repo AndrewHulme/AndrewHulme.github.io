@@ -2864,14 +2864,14 @@ header.major:after {
 
 .spotlight .image {
   width: 30%;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   margin: 0 3em 0 0;
   display: block;
 }
 
 .spotlight .image img {
   display: block;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   width: 100%;
 }
 
@@ -4283,13 +4283,13 @@ body.is-preload #header .image img {
   scale: 0.5;
 }
 
-.image.phone {
-  /* For Ramboll Pic */
-  /* scale: 1.45; */
+/* .image.phone { */
+/* For Ramboll Pic */
+/* scale: 1.45; */
 
-  /* For Myanmar 1 Pic */
-  /* scale: 2; */
-}
+/* For Myanmar 1 Pic */
+/* scale: 2; */
+/* } */
 
 .project.titles {
   font-size: 40px;
@@ -4308,6 +4308,11 @@ body.is-preload #header .image img {
   vertical-align: sub;
   margin-left: 5px;
 }
+
+/* .imageproject {
+  object-fit: contain;
+  width: 10px;
+} */
 
 .techstack {
   display: -moz-flex;
