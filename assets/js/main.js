@@ -46,7 +46,7 @@
   $(".multiple-items").slick({
     infinite: true,
     dots: false,
-    slidesToShow: 5,
+    slidesToShow: 7,
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
@@ -55,6 +55,13 @@
     responsive: [
       {
         breakpoint: 1200,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 800,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
