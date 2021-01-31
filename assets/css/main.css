@@ -4438,9 +4438,14 @@ body.is-preload #header .image img {
 }
 
 .mybackground {
-  /* padding-right: 7%;
-  padding-left: 7%; */
   padding-right: 20%;
   padding-left: 20%;
   text-align: center;
+}
+
+@media screen and (max-width: 736px) and (orientation: portrait) {
+  .mybackground {
+    padding-right: 7%;
+    padding-left: 7%;
+  }
 }
