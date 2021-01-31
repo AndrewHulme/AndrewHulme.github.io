@@ -4436,3 +4436,11 @@ body.is-preload #header .image img {
     /* scale: 1.4 !important; */
   }
 }
+
+.mybackground {
+  /* padding-right: 7%;
+  padding-left: 7%; */
+  padding-right: 20%;
+  padding-left: 20%;
+  text-align: center;
+}
