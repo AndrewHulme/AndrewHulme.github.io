@@ -4450,3 +4450,16 @@ body.is-preload #header .image img {
     padding-left: 7%;
   }
 }
+
+.mytoolkit {
+  padding-right: 20%;
+  padding-left: 20%;
+  text-align: center;
+}
+
+@media screen and (max-width: 736px) and (orientation: portrait) {
+  .mytoolkit {
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+}
